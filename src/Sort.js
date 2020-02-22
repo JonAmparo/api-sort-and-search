@@ -13,7 +13,7 @@ const Sort = ({ sort, sortType }) => {
   };
 
   return (
-    <div>
+    <div className='flex'>
       <div>Current order: {sortType}</div>
       <input checked={sorted} onChange={handleToggle} type='checkbox' />
     </div>

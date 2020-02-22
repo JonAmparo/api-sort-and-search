@@ -9,7 +9,7 @@ const Search = ({ searchPokemon }) => {
   };
 
   return (
-    <form onKeyUpCapture={handleSubmit}>
+    <form onKeyUpCapture={handleSubmit} className='my-3 align-center'>
       <input
         type='text'
         value={query}
