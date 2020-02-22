@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 
-function Pokemon({ filtered }) {
+function Pokemon({ filtered, counter }) {
   const renderPokemon = () => {
     return filtered.map((pokemon, index) => {
       return (
