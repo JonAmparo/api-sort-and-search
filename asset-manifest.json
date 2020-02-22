@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/api-sort-and-search/static/js/main.9c693263.chunk.js",
-    "main.js.map": "/api-sort-and-search/static/js/main.9c693263.chunk.js.map",
+    "main.js": "/api-sort-and-search/static/js/main.9a84e909.chunk.js",
+    "main.js.map": "/api-sort-and-search/static/js/main.9a84e909.chunk.js.map",
     "runtime-main.js": "/api-sort-and-search/static/js/runtime-main.0b904353.js",
     "runtime-main.js.map": "/api-sort-and-search/static/js/runtime-main.0b904353.js.map",
     "static/js/2.6990659b.chunk.js": "/api-sort-and-search/static/js/2.6990659b.chunk.js",
     "static/js/2.6990659b.chunk.js.map": "/api-sort-and-search/static/js/2.6990659b.chunk.js.map",
     "index.html": "/api-sort-and-search/index.html",
-    "precache-manifest.fa9826a9b8f0fe27a524b3f1c9ca52d1.js": "/api-sort-and-search/precache-manifest.fa9826a9b8f0fe27a524b3f1c9ca52d1.js",
+    "precache-manifest.634677f229126f0f58fa771dc709b8b9.js": "/api-sort-and-search/precache-manifest.634677f229126f0f58fa771dc709b8b9.js",
     "service-worker.js": "/api-sort-and-search/service-worker.js",
     "static/js/2.6990659b.chunk.js.LICENSE.txt": "/api-sort-and-search/static/js/2.6990659b.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.0b904353.js",
     "static/js/2.6990659b.chunk.js",
-    "static/js/main.9c693263.chunk.js"
+    "static/js/main.9a84e909.chunk.js"
   ]
 }
