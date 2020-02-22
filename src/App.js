@@ -111,7 +111,14 @@ function App() {
 
   return (
     <div className='container py-5 text-center'>
-      <h1>Pokemons API Sort and Search</h1>
+      <h1>Pokedex</h1>
+      <p className='lead'>
+        Welcome ladies and gentleman! Search and sort through your Pokedex using
+        this web application.{' '}
+      </p>
+      <p>
+        If you'd like to learn more about the pokemon; click the pokemons name.
+      </p>
       <Search searchPokemon={searchPokemon} />
       {!api ? (
         <div>

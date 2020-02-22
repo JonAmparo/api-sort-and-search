@@ -1,5 +1,7 @@
 <h1 align="center"> API with Sort & Search </h1>
 
+Thanks to PokeAPI for their API. You can visit them at: [https://pokeapi.co/](https://pokeapi.co/)
+
 ## View demo
 
 [https://jonamparo.github.io/api-sort-and-search](https://jonamparo.github.io/api-sort-and-search)
