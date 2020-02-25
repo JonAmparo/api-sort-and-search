@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react';
+import PropTypes from 'prop-types';
 
-function Pokemon({ filtered, counter }) {
+function Pokemon({ filtered }) {
   const renderPokemon = () => {
     return filtered.map((pokemon, index) => {
       return (
@@ -18,5 +19,9 @@ function Pokemon({ filtered, counter }) {
     </Fragment>
   );
 }
+
+Pokemon.propTypes = {
+  filtered: PropTypes.array.isRequired
+};
 
 export default Pokemon;

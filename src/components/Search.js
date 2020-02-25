@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
+import PropTypes from 'prop-types';
 
 const Search = ({ searchPokemon }) => {
   const [query, setQuery] = useState('');
-  console.log('SEARCH query:', query);
 
   const handleSubmit = e => {
     searchPokemon(query);
@@ -14,10 +14,14 @@ const Search = ({ searchPokemon }) => {
         type='text'
         value={query}
         onChange={e => setQuery(e.target.value)}
-        placeholder="Search for a pokemon..."
+        placeholder='Search for a pokemon...'
       />
     </form>
   );
+};
+
+Search.propTypes = {
+  searchPokemon: PropTypes.func.isRequired
 };
 
 export default Search;

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import PropTypes from 'prop-types';
 
 const Sort = ({ sort, sortType }) => {
   const [sorted, setSorted] = useState(false);
@@ -18,6 +19,11 @@ const Sort = ({ sort, sortType }) => {
       <input checked={sorted} onChange={handleToggle} type='checkbox' />
     </div>
   );
+};
+
+Sort.propTypes = {
+  sort: PropTypes.func.isRequired,
+  sortType: PropTypes.string.isRequired
 };
 
 export default Sort;

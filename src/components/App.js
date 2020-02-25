@@ -20,7 +20,7 @@ function App() {
         setFiltered(json.results);
         setCount(count + 1);
         setApi(true);
-        console.log('API call count:', count);
+        // console.log('API call count:', count);
       })
       .catch(e => console.error(e));
   };
